@@ -1,12 +1,9 @@
 <div align="center">
 <h1>noxenv 🔅</h1>
-
+<br />
 <p>Set and get environment variables in your node project across different platforms</p>
-</div>
 
----
-
-<div align="center">
+<br />
 
 <!-- prettier-ignore-start -->
 [![Test Status][test-badge]][build]
@@ -18,8 +15,6 @@
 <!-- prettier-ignore-end -->
 
 </div>
-
-<br />
 
 ---
 

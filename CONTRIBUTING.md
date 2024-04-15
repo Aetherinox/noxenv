@@ -1,12 +1,9 @@
 <div align="center">
 <h1>noxenv 🔅</h1>
+<br />
+<p>Contributor Documentation</p>
 
-<p>Contributing Documentation</p>
-</div>
-
----
-
-<div align="center">
+<br />
 
 <!-- prettier-ignore-start -->
 [![Test Status][test-badge]][build]
@@ -18,8 +15,6 @@
 <!-- prettier-ignore-end -->
 
 </div>
-
-<br />
 
 ---
 
