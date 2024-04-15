@@ -10,6 +10,8 @@
 [![Test Status][test-badge]][build]
 [![Code Coverage][coverage-badge]][coverage]
 [![Version][version]][package]
+[![Last Commit][badge-commit]][badge-commit]
+[![Size][badge-size]][badge-size]
 [![All Contributors][all-contributors-badge]](#contributors-)
 <!-- prettier-ignore-end -->
 
@@ -258,6 +260,8 @@ The following people have helped get this project going:
 <!-- prettier-ignore-start -->
 [npm]: https://npmjs.com
 [node]: https://nodejs.org
+[badge-commit]: https://img.shields.io/github/last-commit/Aetherinox/noxenv?color=b43bcc
+[badge-size]: https://img.shields.io/github/repo-size/Aetherinox/noxenv?label=size&color=59702a
 [test-badge]: https://img.shields.io/github/actions/workflow/status/Aetherinox/noxenv/npm-tests.yml?logo=github&label=Tests&color=%23278b30
 [build]: https://github.com/Aetherinox/noxenv/actions/workflows/npm-publish.yml?query=workflow%3Anpm-publish.yml
 [coverage-badge]: https://img.shields.io/codecov/c/github/Aetherinox/xsumjs?token=MPAVASGIOG&logo=codecov&logoColor=FFFFFF&label=Coverage&color=354b9e
