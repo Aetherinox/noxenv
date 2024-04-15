@@ -6,6 +6,8 @@
 
 ---
 
+<div align="center">
+
 <!-- prettier-ignore-start -->
 [![Test Status][test-badge]][build]
 [![Code Coverage][coverage-badge]][coverage]
@@ -14,6 +16,8 @@
 [![Size][badge-size]][badge-size]
 [![All Contributors][all-contributors-badge]](#contributors-)
 <!-- prettier-ignore-end -->
+
+</div>
 
 <br />
 
