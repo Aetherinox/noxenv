@@ -1,0 +1,82 @@
+{
+    "name": "@aetherinox/noxenv",
+    "version": "1.0.0",
+    "description": "Set and use environment variables across different platforms.",
+    "homepage": "https://github.com/Aetherinox/noxenv",
+    "author": "Aetherinox <adminservx@proton.me>",
+    "contributors": [
+        {
+            "name": "Aetherinox",
+            "email": "adminservx@proton.me",
+            "url": "https://github.com/Aetherinox"
+        },
+        {
+            "name": "AdminServ",
+            "email": "adminservx@proton.me",
+            "url": "https://github.com/AdminServ"
+        }
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Aetherinox/noxenv.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Aetherinox/noxenv/issues"
+    },
+    "license": "MIT",
+    "keywords": [
+        "environment",
+        "environment variables",
+        "env variable",
+        "windows"
+    ],
+    "main": "src/index.js",
+    "bin": {
+        "noxenv": "src/bin/noxenv.js",
+        "noxenv-shell": "src/bin/noxenv-shell.js"
+    },
+    "engines": {
+        "node": ">=10.14",
+        "npm": ">=6",
+        "yarn": ">=1"
+    },
+    "scripts": {
+        "setup": "npm install && npm run validate -s",
+        "validate": "kcd-scripts validate",
+        "build": "kcd-scripts build",
+        "pretty": "kcd-scripts format",
+        "lint": "kcd-scripts lint",
+        "test": "kcd-scripts test",
+        "test:update": "npm test -- --updateSnapshot --coverage",
+        "contrib:add": "all-contributors add",
+        "contrib:generate": "all-contributors generate",
+        "noxenv": "node noxenv.js",
+        "env-generate": "node noxenv.js generate",
+        "env-noxenv": "npx --quiet env-cmd --no-override node noxenv.js",
+        "uuid": "npx --quiet env-cmd --no-override node noxenv.js uuid",
+        "guid": "npx --quiet env-cmd --no-override node noxenv.js guid",
+        "version": "node -p require('./package.json').version;"
+    },
+    "files": [
+        "src",
+        "!tests"
+    ],
+    "author": "Aetherinox <adminservx@proton.me>",
+    "license": "MIT",
+    "dependencies": {
+        "cross-spawn": "^7.0.3",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "kcd-scripts": "^15.0.1",
+        "all-contributors-cli": "^6.26.1",
+        "@types/uuid": "^9.0.8"
+    },
+    "eslintConfig": {
+        "extends": "./node_modules/kcd-scripts/eslint.js"
+    },
+    "babel": {}
+}
