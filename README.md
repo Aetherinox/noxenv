@@ -162,7 +162,7 @@ If you wish to pass a JSON string (such as when using [ts-loader]), you may do t
 
 <br />
 
-Pay attention to the **triple backslash** `(\\\)` **before** the **double quotes** `(")` and the **absence** of **single quotes** `(')`. Both of these conditions MUST be met in order to work on both on Windows and *NIX.
+Take note of the `triple backslashes` `(\\\)` before `double quotes` `(")` and the absence of `single quotes` `(')`. Both of these conditions are vital and required in order for the env var to work on both on Windows and *NIX.
 
 <br />
 
