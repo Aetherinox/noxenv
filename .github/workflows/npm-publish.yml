@@ -136,7 +136,7 @@ jobs:
 
         - name: "📦 NPM Actions"
           run: |
-            npm ci
+            npm install
             npm publish
           env:
             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -166,7 +166,7 @@ jobs:
 
         - name: "📦 NPM Actions"
           run: |
-            npm ci
+            npm install
             npm publish
           env:
             NODE_AUTH_TOKEN: ${{ secrets.SELF_TOKEN_CL }}
