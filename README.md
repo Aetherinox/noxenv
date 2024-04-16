@@ -26,6 +26,7 @@
 - [`noxenv` \& `noxenv-shell`](#noxenv--noxenv-shell)
 - [Windows Users](#windows-users)
 - [Contributors ✨](#contributors-)
+- [Creds](#creds)
 
 <br />
 
@@ -249,6 +250,15 @@ The following people have helped get this project going:
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+<br />
+
+---
+
+<br />
+
+## Creds
+This is based on the older module `cross-env` which is a great asset, however, I needed updated dependencies and additional functionality; along with the ability to implement whatever I need. Including  plans for rollup. This is more of a personal project, but if anyone finds it useful; you're free to use it. All the original functionality is included, just updates. Also going to be adding config / `.env` file support.
 
 <br />
 
