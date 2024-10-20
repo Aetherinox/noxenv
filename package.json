@@ -64,8 +64,6 @@
         "src",
         "!tests"
     ],
-    "author": "Aetherinox <adminservx@proton.me>",
-    "license": "MIT",
     "dependencies": {
         "cross-spawn": "^7.0.3",
         "uuid": "^9.0.1"
