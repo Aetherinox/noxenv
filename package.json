@@ -66,7 +66,7 @@
     ],
     "dependencies": {
         "cross-spawn": "^7.0.3",
-        "uuid": "^9.0.1"
+        "uuid": "^10.0.0"
     },
     "devDependencies": {
         "kcd-scripts": "^15.0.1",
